@@ -1,12 +1,12 @@
 class Main {
-    int attribute;
+    int attr;
 
     Main() {
-        attribute = 1;
+        attr = 1;
     }
 
     int method() {
-        this.attribute = 3;
-        return attribute;
+        this.attr = 3;
+        return attr;
     }
 }
